@@ -22,7 +22,7 @@ jobs:
         password: ${{secrets.DOCKERHUB_PASSWORD}}
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag justkwoo/dcsi_310_ia3:latest
+      run: docker build . --file Dockerfile --tag justkwoo/dsci310-ia3-justkwoo-docker:latest
 
     - name: Push The Docker image
-      run: dokcer push justkwoo/dcsi_310_ia3:latest
+      run: docker push justkwoo/dsci310-ia3-justkwoo-docker:latest
