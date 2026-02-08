@@ -25,4 +25,4 @@ jobs:
       run: docker build . --file Dockerfile --tag justkwoo/dcsi_310_ia3:latest
 
     - name: Push The Docker image
-      run: dokcer push justkwoo/dcsi_310_IA3:latest
+      run: dokcer push justkwoo/dcsi_310_ia3:latest
